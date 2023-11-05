@@ -5,7 +5,7 @@ from tkinter import filedialog
 # Class to enable all things to do with summarising text
 class Summariser():
     # Set the API key
-    def __init__(self, text, API_KEY = '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'):
+    def __init__(self, text, API_KEY = 'YOUR KEY HERE'):
         oi.api_key = API_KEY
         self.text = text
         self.summary = None
